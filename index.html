@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Road to Your First ₹1 Lakh | DigiManiac Kurukshetra</title>
+<meta name="description" content="Find the right course at DigiManiac, Kurukshetra – Digital Marketing, Graphic Designing, Video Editing, Animation & VFX. Practical training, live projects, free demo class.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<!-- ============================================================
+     PROTOTYPE — DigiManiac "Find Your Course" funnel
+     Edit the CONFIG block in the <script> at the bottom:
+     WhatsApp number, call number, batch timings, Sheet webhook,
+     videos per course, and which courses have online batches.
+     Deep-link a course from Google Ads with ?course=dm | gd | ve | av
+     ============================================================ -->
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="logo" href="#">Digi<span>Maniac</span></a>
+    <div class="badge-iso">ISO 9001:2015 Certified · Kurukshetra, Haryana</div>
+    <a class="call-btn" id="callBtn" href="#">📞 Call Us</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow"><i></i> Free demo classes running this week</div>
+    <h1>Your road to earning your <em>first ₹1 Lakh</em> starts here</h1>
+    <p class="sub">Learn a skill that companies and clients pay for. Answer 5 quick questions and get your personal roadmap from DigiManiac, Kurukshetra.</p>
+    <div class="hero-meta"><span>⏱️ 5 quick steps</span><span>🗺️ Free personal roadmap</span><span>🎟️ Free demo class</span></div>
+    <button class="journey-btn" id="journeyBtn" type="button"><span id="journeyBtnTxt">Start your ₹1 Lakh journey</span><span class="arr">↓</span></button>
+  </div>
+</section>
+
+<div class="quiz-wrap" id="finder">
+  <div class="quiz" aria-live="polite">
+    <div class="quiz-head" id="quizHead">
+      <button class="back" id="backBtn" aria-label="Go back" hidden>←</button>
+      <div class="progress">
+        <div class="progress-label"><span id="stepLabel">Step 1 of 5</span><span id="stepHint">Takes 30 seconds</span></div>
+      </div>
+    </div>
+    <ol class="journey" id="journey"></ol>
+    <div id="quizBody"></div>
+  </div>
+</div>
+
+<section class="block">
+  <h2 class="sec-title">Why students choose DigiManiac</h2>
+  <p class="sec-sub">Job-oriented, practical training in Kurukshetra for students, freshers, working professionals and business owners.</p>
+  <div class="why">
+    <div><div class="e">🛠️</div><h3>Practical, hands-on training</h3><p>Learn by doing — assignments and live projects, not just theory.</p></div>
+    <div><div class="e">🧰</div><h3>Industry tools</h3><p>Work on the same tools used by agencies, creators and brands.</p></div>
+    <div><div class="e">🎓</div><h3>Certification & internship</h3><p>Industry-recognised certification with internship opportunities.</p></div>
+    <div><div class="e">🚀</div><h3>Career guidance & placement support</h3><p>Portfolio, resume and interview preparation to get you job-ready.</p></div>
+  </div>
+</section>
+
+<section class="block">
+  <h2 class="sec-title">Our courses</h2>
+  <p class="sec-sub">Not sure yet? Pick a course below and we'll build your plan.</p>
+  <div class="clist" id="courseList"></div>
+</section>
+
+<section class="block">
+  <h2 class="sec-title">Frequently asked questions</h2>
+  <p class="sec-sub">Quick answers before you book your free demo class.</p>
+  <div class="faq">
+    <details><summary>Can I really earn ₹1 lakh after the course?</summary><p>₹1 lakh is a goal many learners work towards, through a job, freelancing or their own clients. How fast you get there depends on your practice, portfolio and effort. DigiManiac gives you the training, live projects and career guidance to get started. We don't promise a fixed income.</p></details>
+    <details><summary>Is the demo class really free?</summary><p>Yes. Attend a free demo class, meet the trainer and see how classes run before you decide.</p></details>
+    <details><summary>Do I need any prior experience?</summary><p>No. Courses start from the basics, so 12th-pass students, graduates and working professionals can all join.</p></details>
+    <details><summary>Where is DigiManiac located?</summary><p>Our training centre is in Kurukshetra, Haryana. Online live batches are also available for selected courses.</p></details>
+    <details><summary>What are the batch timings?</summary><p>Multiple batches run through the day, from 9:00 AM to 6:00 PM, so you can choose a slot that fits college or work.</p></details>
+  </div>
+</section>
+
+<footer>
+  <strong>DigiManiac</strong> · ISO 9001:2015 Certified Training Institute · Kurukshetra, Haryana<br>
+  Digital Marketing · Graphic Designing · Video Editing · Animation & VFX
+</footer>
+
+<div class="resume" id="resume" aria-hidden="true">
+  <p><span id="resumeTxt">🎯 Your ₹1 Lakh roadmap is waiting</span><small id="resumeSub">5 quick steps · takes 30 seconds</small></p>
+  <button class="btn" id="resumeBtn">Start now ↑</button>
+</div>
+
+<a class="wa-float" id="waFloat" href="#" target="_blank" rel="noopener">💬<span class="t"> WhatsApp</span></a>
+<div class="demo-note">PROTOTYPE — for internal testing</div>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
